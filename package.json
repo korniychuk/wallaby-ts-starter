@@ -28,8 +28,7 @@
     "test:watch": "npm run test -- --watch",
     "tpl-repo": "tools/merge-with-repository-template.sh",
     "tpl-repo:check": "npm run tpl-repo -- check",
-    "tpl-repo:merge": "npm run tpl-repo -- merge",
-    "start": "ts-node ./src/my.ts"
+    "tpl-repo:merge": "npm run tpl-repo -- merge"
   },
   "devDependencies": {
     "@babel/core": "~7.10.2",
