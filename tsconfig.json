@@ -6,7 +6,6 @@
     "importHelpers": true,
     "incremental": true,
     "lib": [
-      "dom",
       "es2019"
     ],
     "module": "commonjs",
@@ -21,7 +20,8 @@
     ],
     "types": [
       "jest",
-      "jest-extended"
+      "jest-extended",
+      "node"
     ],
     "outDir": "./dist",
     "baseUrl": "./src",
